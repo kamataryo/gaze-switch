@@ -1,0 +1,548 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		81BD491A1F7789140095E210 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81BD49191F7789140095E210 /* AppDelegate.swift */; };
+		81BD491C1F7789140095E210 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81BD491B1F7789140095E210 /* ViewController.swift */; };
+		81BD491E1F7789140095E210 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 81BD491D1F7789140095E210 /* Assets.xcassets */; };
+		81BD49211F7789140095E210 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81BD491F1F7789140095E210 /* Main.storyboard */; };
+		81BD492D1F7789140095E210 /* gaze_switchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81BD492C1F7789140095E210 /* gaze_switchTests.swift */; };
+		81BD49381F7789140095E210 /* gaze_switchUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81BD49371F7789140095E210 /* gaze_switchUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		81BD49291F7789140095E210 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 81BD490E1F7789140095E210 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 81BD49151F7789140095E210;
+			remoteInfo = "gaze-switch";
+		};
+		81BD49341F7789140095E210 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 81BD490E1F7789140095E210 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 81BD49151F7789140095E210;
+			remoteInfo = "gaze-switch";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		81BD49161F7789140095E210 /* gaze-switch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "gaze-switch.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		81BD49191F7789140095E210 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		81BD491B1F7789140095E210 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		81BD491D1F7789140095E210 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		81BD49201F7789140095E210 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		81BD49221F7789140095E210 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		81BD49231F7789140095E210 /* gaze_switch.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = gaze_switch.entitlements; sourceTree = "<group>"; };
+		81BD49281F7789140095E210 /* gaze-switchTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "gaze-switchTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		81BD492C1F7789140095E210 /* gaze_switchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = gaze_switchTests.swift; sourceTree = "<group>"; };
+		81BD492E1F7789140095E210 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		81BD49331F7789140095E210 /* gaze-switchUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "gaze-switchUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		81BD49371F7789140095E210 /* gaze_switchUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = gaze_switchUITests.swift; sourceTree = "<group>"; };
+		81BD49391F7789140095E210 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		81BD49131F7789140095E210 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		81BD49251F7789140095E210 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		81BD49301F7789140095E210 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		81BD490D1F7789140095E210 = {
+			isa = PBXGroup;
+			children = (
+				81BD49181F7789140095E210 /* gaze-switch */,
+				81BD492B1F7789140095E210 /* gaze-switchTests */,
+				81BD49361F7789140095E210 /* gaze-switchUITests */,
+				81BD49171F7789140095E210 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		81BD49171F7789140095E210 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				81BD49161F7789140095E210 /* gaze-switch.app */,
+				81BD49281F7789140095E210 /* gaze-switchTests.xctest */,
+				81BD49331F7789140095E210 /* gaze-switchUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		81BD49181F7789140095E210 /* gaze-switch */ = {
+			isa = PBXGroup;
+			children = (
+				81BD49191F7789140095E210 /* AppDelegate.swift */,
+				81BD491B1F7789140095E210 /* ViewController.swift */,
+				81BD491D1F7789140095E210 /* Assets.xcassets */,
+				81BD491F1F7789140095E210 /* Main.storyboard */,
+				81BD49221F7789140095E210 /* Info.plist */,
+				81BD49231F7789140095E210 /* gaze_switch.entitlements */,
+			);
+			path = "gaze-switch";
+			sourceTree = "<group>";
+		};
+		81BD492B1F7789140095E210 /* gaze-switchTests */ = {
+			isa = PBXGroup;
+			children = (
+				81BD492C1F7789140095E210 /* gaze_switchTests.swift */,
+				81BD492E1F7789140095E210 /* Info.plist */,
+			);
+			path = "gaze-switchTests";
+			sourceTree = "<group>";
+		};
+		81BD49361F7789140095E210 /* gaze-switchUITests */ = {
+			isa = PBXGroup;
+			children = (
+				81BD49371F7789140095E210 /* gaze_switchUITests.swift */,
+				81BD49391F7789140095E210 /* Info.plist */,
+			);
+			path = "gaze-switchUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		81BD49151F7789140095E210 /* gaze-switch */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 81BD493C1F7789140095E210 /* Build configuration list for PBXNativeTarget "gaze-switch" */;
+			buildPhases = (
+				81BD49121F7789140095E210 /* Sources */,
+				81BD49131F7789140095E210 /* Frameworks */,
+				81BD49141F7789140095E210 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "gaze-switch";
+			productName = "gaze-switch";
+			productReference = 81BD49161F7789140095E210 /* gaze-switch.app */;
+			productType = "com.apple.product-type.application";
+		};
+		81BD49271F7789140095E210 /* gaze-switchTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 81BD493F1F7789140095E210 /* Build configuration list for PBXNativeTarget "gaze-switchTests" */;
+			buildPhases = (
+				81BD49241F7789140095E210 /* Sources */,
+				81BD49251F7789140095E210 /* Frameworks */,
+				81BD49261F7789140095E210 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				81BD492A1F7789140095E210 /* PBXTargetDependency */,
+			);
+			name = "gaze-switchTests";
+			productName = "gaze-switchTests";
+			productReference = 81BD49281F7789140095E210 /* gaze-switchTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		81BD49321F7789140095E210 /* gaze-switchUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 81BD49421F7789140095E210 /* Build configuration list for PBXNativeTarget "gaze-switchUITests" */;
+			buildPhases = (
+				81BD492F1F7789140095E210 /* Sources */,
+				81BD49301F7789140095E210 /* Frameworks */,
+				81BD49311F7789140095E210 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				81BD49351F7789140095E210 /* PBXTargetDependency */,
+			);
+			name = "gaze-switchUITests";
+			productName = "gaze-switchUITests";
+			productReference = 81BD49331F7789140095E210 /* gaze-switchUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		81BD490E1F7789140095E210 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0900;
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = "鎌田遼";
+				TargetAttributes = {
+					81BD49151F7789140095E210 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+					};
+					81BD49271F7789140095E210 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 81BD49151F7789140095E210;
+					};
+					81BD49321F7789140095E210 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 81BD49151F7789140095E210;
+					};
+				};
+			};
+			buildConfigurationList = 81BD49111F7789140095E210 /* Build configuration list for PBXProject "gaze-switch" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 81BD490D1F7789140095E210;
+			productRefGroup = 81BD49171F7789140095E210 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				81BD49151F7789140095E210 /* gaze-switch */,
+				81BD49271F7789140095E210 /* gaze-switchTests */,
+				81BD49321F7789140095E210 /* gaze-switchUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		81BD49141F7789140095E210 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				81BD491E1F7789140095E210 /* Assets.xcassets in Resources */,
+				81BD49211F7789140095E210 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		81BD49261F7789140095E210 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		81BD49311F7789140095E210 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		81BD49121F7789140095E210 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				81BD491C1F7789140095E210 /* ViewController.swift in Sources */,
+				81BD491A1F7789140095E210 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		81BD49241F7789140095E210 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				81BD492D1F7789140095E210 /* gaze_switchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		81BD492F1F7789140095E210 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				81BD49381F7789140095E210 /* gaze_switchUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		81BD492A1F7789140095E210 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 81BD49151F7789140095E210 /* gaze-switch */;
+			targetProxy = 81BD49291F7789140095E210 /* PBXContainerItemProxy */;
+		};
+		81BD49351F7789140095E210 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 81BD49151F7789140095E210 /* gaze-switch */;
+			targetProxy = 81BD49341F7789140095E210 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		81BD491F1F7789140095E210 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				81BD49201F7789140095E210 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		81BD493A1F7789140095E210 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		81BD493B1F7789140095E210 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+			};
+			name = Release;
+		};
+		81BD493D1F7789140095E210 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "gaze-switch/gaze_switch.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "gaze-switch/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "kamataryo.gaze-switch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+			};
+			name = Debug;
+		};
+		81BD493E1F7789140095E210 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "gaze-switch/gaze_switch.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "gaze-switch/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "kamataryo.gaze-switch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+			};
+			name = Release;
+		};
+		81BD49401F7789140095E210 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "gaze-switchTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "kamataryo.gaze-switchTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/gaze-switch.app/Contents/MacOS/gaze-switch";
+			};
+			name = Debug;
+		};
+		81BD49411F7789140095E210 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "gaze-switchTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "kamataryo.gaze-switchTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/gaze-switch.app/Contents/MacOS/gaze-switch";
+			};
+			name = Release;
+		};
+		81BD49431F7789140095E210 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "gaze-switchUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "kamataryo.gaze-switchUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TEST_TARGET_NAME = "gaze-switch";
+			};
+			name = Debug;
+		};
+		81BD49441F7789140095E210 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "gaze-switchUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "kamataryo.gaze-switchUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TEST_TARGET_NAME = "gaze-switch";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		81BD49111F7789140095E210 /* Build configuration list for PBXProject "gaze-switch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				81BD493A1F7789140095E210 /* Debug */,
+				81BD493B1F7789140095E210 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		81BD493C1F7789140095E210 /* Build configuration list for PBXNativeTarget "gaze-switch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				81BD493D1F7789140095E210 /* Debug */,
+				81BD493E1F7789140095E210 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		81BD493F1F7789140095E210 /* Build configuration list for PBXNativeTarget "gaze-switchTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				81BD49401F7789140095E210 /* Debug */,
+				81BD49411F7789140095E210 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		81BD49421F7789140095E210 /* Build configuration list for PBXNativeTarget "gaze-switchUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				81BD49431F7789140095E210 /* Debug */,
+				81BD49441F7789140095E210 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 81BD490E1F7789140095E210 /* Project object */;
+}
