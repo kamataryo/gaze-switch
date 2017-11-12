@@ -10,6 +10,8 @@ import Cocoa
 
 class ViewController: NSViewController {
 
+    @IBOutlet weak var displayLabel: NSTextField!
+    @IBOutlet weak var editText: NSTextField!
     override func viewDidLoad() {
         super.viewDidLoad()
 
@@ -18,10 +20,14 @@ class ViewController: NSViewController {
 
     override var representedObject: Any? {
         didSet {
+            
         // Update the view, if already loaded.
         }
     }
 
-
+    @IBAction func pushButton(_ sender: Any) {
+        displayLabel.stringValue = editText.stringValue
+    }
+    
 }
 
